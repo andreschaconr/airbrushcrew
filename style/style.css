@@ -17,13 +17,13 @@ header
   top: 0;
   left: 0;
   width: 100%;
-  background: rgb(22, 22, 22);
+  background: rgb(22, 22, 22, 0.8);
   z-index: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
   box-shadow: 0px 5px 0px #EF7700;
-  opacity: 0.8;
+  
 }
 header .logo 
 {
@@ -173,7 +173,7 @@ line-height: 1em;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #222222;
+  background: rgb(22, 22, 22, 0.8);
 }
 .menu ul
 {
@@ -191,7 +191,7 @@ line-height: 1em;
 }
 .menu ul li a:hover
 {
-  color: #53BCB7; 
+  color: #EF7700; 
 }
 
 @media screen and (max-width:840px){
@@ -213,10 +213,10 @@ nav {
   z-index: 11;
   width: 100%;
   margin: 0 auto;
-  background: rgb(22, 22, 22);
+  
   padding: 20px 0;
   box-shadow: 0px 5px 0px #EF7700;
-  opacity: 0.7;
+ 
 }
 
 /* By Dominik Biedebach @domobch */
