@@ -49,7 +49,7 @@ header .logo
   background-size: 30px;
   background-position: center;
   cursor: pointer;
-  padding-right: 6rem;
+  padding-right: 7rem;
 }
 .toggle.active
 {
@@ -59,13 +59,14 @@ header .logo
   background-position: center;
   cursor: pointer;
 }
+
 .showcase
 {
   position: relative;
   right: 0;
   width: 100%;
   min-height: 100vh;
-  padding: 200px;
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -75,7 +76,7 @@ header .logo
 }
 .showcase.active
 {
-  right: 300px;
+  right: 280px;
 }
 
 .showcase video
@@ -98,40 +99,7 @@ header .logo
 
 
 
-.text h3
-{
-  font-size: 5em;
-  font-weight: 700;
-  color: #fff;
-  line-height: 1em;
-  
-}
-.text p
-{
-  font-size: 1.1em;
-  color: #fff;
-  margin: 20px 0;
-  font-weight: 400;
-  max-width: 700px;
-}
-.text a
-{
-  display: inline-block;
-  font-size: 1em;
-  background: #fff;
-  padding: 10px 30px;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-weight: 500;
-  margin-top: 10px;
-  color: #111;
-  letter-spacing: 2px;
-  transition: 0.2s;
-}
-.text a:hover
-{
-  letter-spacing: 6px;
-}
+
 
 .menu
 {
@@ -166,8 +134,17 @@ header .logo
 
 @media screen and (max-width:840px){
   .toggle{
-    display: inline;
+    display: flex;
     
+  }
+  .stroke{
+    display:none;
+  }
+ 
+}
+@media screen and (max-width:640px){
+  #header.logo{
+    display: none;
   }
   .stroke{
     display:none;
@@ -190,7 +167,7 @@ nav {
  
 }
 
-/* By Dominik Biedebach @domobch */
+
 nav ul {
   list-style: none;
   text-align: right;
@@ -218,7 +195,7 @@ nav ul li a:hover {
   color: #EF7700;
 }
 
-/* By Dominik Biedebach @domobch */
+
 
 
 /* stroke */
