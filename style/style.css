@@ -49,7 +49,7 @@ header .logo
   background-size: 30px;
   background-position: center;
   cursor: pointer;
-  padding-right: 7rem;
+  padding-right: 6rem;
 }
 .toggle.active
 {
